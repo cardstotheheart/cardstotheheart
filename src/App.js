@@ -10,7 +10,7 @@ function App() {
                 <a href="http://cardstotheheart.ca">Cards to the Heart</a>
             </h1>
             <div className="logo">
-                <a href="http://cardstotheheart.ca"><img src="/resources/C2tH_logo1.png"/></a>
+                <a href="http://cardstotheheart.ca"><img src="/resources/C2tH_logo1.png" alt="<3" /></a>
             </div>
         </header>
         <span>
