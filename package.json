@@ -1,15 +1,19 @@
 {
   "name": "cards2heart",
   "version": "0.1.0",
+  "homepage": "http://play.cardstotheheart.ca",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
