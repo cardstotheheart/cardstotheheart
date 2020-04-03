@@ -1,5 +1,7 @@
 build/
 node_files/
+.idea
+node_modules
 
 # Windows thumbnail cache files
 Thumbs.db
