@@ -8,7 +8,7 @@ class Card extends Component {
             let url = "/resources/images/CTTH v4 Prod Cards layout final" + this.props.card + ".png";
             card = <img src={url} alt="cardback-component" style={{ display: this.props.card ? 'block': 'none'}}/>;
         } else {
-            card = <div>Click on the deck to draw a card!</div>
+            card = <div>Click on the deck to shuffle and draw a card!</div>
         }
 
         return (

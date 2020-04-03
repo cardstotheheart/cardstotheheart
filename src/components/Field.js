@@ -10,7 +10,6 @@ class Field extends Component {
     }
 
     handleDraw(card) {
-        console.log('The link was clicked.');
         this.setState(state => ({
             card: card
         }));
